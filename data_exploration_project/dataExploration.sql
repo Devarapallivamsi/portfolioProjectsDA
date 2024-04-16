@@ -1,11 +1,14 @@
---1.Data regarding covid-19 deaths and vaccinations is explored on myriad ways considering the continents, countries etc.,
---2.This project is done using SQL SERVER 
---3.Cautions like appropriate dtypes of columns were taken care of before diving into the exploration part. For eg., wherever mathematical operatins like computing percentage etc.,
--- is carried out,columns are casted to float type to not miss out on accuracy.
+--1. Data regarding covid-19 deaths and vaccinations is explored on myriad parameters like continents, countries etc.,
+--2. This project is done using SQL SERVER 
+--3. All columns were reviewed and made changes to their data type when required to handle data properly before diving into the exploration part.
+--   For eg., columns that may contain numbers bigger than 2,147,483,647 were casted to BigInt.
+--   is carried out,columns are casted to float type to not miss out on accuracy.
 --4. The following query comes in handy to view the data types of all columns in the table
---  SELECT COLUMN_NAME, DATA_TYPE
---  FROM INFORMATION_SCHEMA.COLUMNS
---  WHERE TABLE_NAME = 'CovidDeaths'; (or CovidVaccinations)
+--   SELECT COLUMN_NAME, DATA_TYPE
+--   FROM INFORMATION_SCHEMA.COLUMNS
+--   WHERE TABLE_NAME = 'CovidDeaths'; (or CovidVaccinations)
+--5. In-place column casting is also carried out to enable the data manipulation and not miss out on the accuracy
+--   for eg.,: wherever mathematical operatins like computing percentage are carried out, integer columns are casted to float.
 
 
 
