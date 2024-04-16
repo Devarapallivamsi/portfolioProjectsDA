@@ -2,7 +2,7 @@
 --2.This project is done using SQL SERVER 
 --3.Cautions like appropriate dtypes of columns were taken care of before diving into the exploration part. For eg., wherever mathematical operatins like computing percentage etc.,
 -- is carried out,columns are casted to float type to not miss out on accuracy.
---4. The following query helps one view the dtypes of all columns in the table
+--4. The following query comes in handy to view the data types of all columns in the table
 --  SELECT COLUMN_NAME, DATA_TYPE
 --  FROM INFORMATION_SCHEMA.COLUMNS
 --  WHERE TABLE_NAME = 'CovidDeaths'; (or CovidVaccinations)
