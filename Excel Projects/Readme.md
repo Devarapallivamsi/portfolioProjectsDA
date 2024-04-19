@@ -1,4 +1,4 @@
-The bike sales dashboard displays the sales trend by a number of variables, including age and the average daily commute distance.
+The bike sales dashboard displays the sales trend by a number of variables like age, average daily commute distance,region they live in etc.,.
 
 Flow of the project:
 
