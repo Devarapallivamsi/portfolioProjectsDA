@@ -1,6 +1,7 @@
 The bike sales dashboard displays the sales trend by a number of variables, including age and the average daily commute distance.
 
 Flow of the project:
+
 1.Data is cleaned by removing duplicates, formatting the columns etc.,
 
 2.Column 'Age Bracket' is additionally created from column 'Age' to segment users based on the age range they come under.
